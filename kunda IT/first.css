@@ -1,0 +1,97 @@
+
+body
+{
+  font-family: display;
+  background-color: #FFAA33;
+    }
+
+header
+{
+background-color: #191970;
+  color: #D2042D;
+  padding: 20px;
+  text-align: center;
+}
+
+nav
+{
+  background-color: #D2042D;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a
+{
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+}
+
+nav a:hover 
+{
+  text-decoration: underline;
+}
+
+section
+{
+  padding: 20px;
+}
+
+footer
+{
+  background-color: #191970;
+  color: #D2042D;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+button
+{
+  border-radius: 12px;
+  background-color: #666;
+}
+
+input[type=text] 
+{
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+.image-grid 
+{
+  dispaly: flex;
+  justify-content: space-between;
+  magin-top: 20px;
+}
+
+.image-grid img -
+{
+  width: 30%; /* Adjust the width as needed */
+  magin: 0;
+  padding: 0;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
